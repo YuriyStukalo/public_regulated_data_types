@@ -1,5 +1,0 @@
-uint8 CAPACITY = 28
-
-uint2[CAPACITY] values
-
-@sealed

@@ -1,7 +1,0 @@
-@union
-
-orion.service.weapon.fire.mode.Hold.0.1 hold
-orion.service.weapon.fire.mode.Burst.0.1 burst
-orion.service.weapon.fire.mode.Automatic.0.1 automatic
-
-@sealed

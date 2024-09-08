@@ -1,7 +1,0 @@
-uint8 CAPACITY = 2
-
-bool[CAPACITY] change_flags
-
-uint3[CAPACITY] values
-
-@sealed

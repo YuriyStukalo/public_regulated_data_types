@@ -1,7 +1,0 @@
-bool change_flag
-# Indicates if the button state has changed. True (1) if the current state differs from the previous state; False (0) if it remains the same.
-
-bool value
-# Represents the current state of the button. True (1) for pressed; False (0) for released.
-
-@sealed

@@ -1,7 +1,0 @@
-# Automatic Fire.
-
-uint8 DURATION = 1  # [seconds]
-# Duration of a single fire command in automatic mode. For continuous firing in this mode,
-# a new command must be sent before the duration of the previous command elapses and the command becomes completed.
-
-@sealed
