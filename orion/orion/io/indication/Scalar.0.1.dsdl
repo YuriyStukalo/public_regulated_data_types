@@ -1,0 +1,19 @@
+# Indication of input element.
+# Additionaly to defined values, also exist so called internal value PRESSED, that is ussualy overwrite currect
+# indication value and usually represented by max brightness.
+
+uint2 value
+
+uint2 DISABLED = 0
+# The indication is disabled. All indication LEDs are off.
+
+uint2 STANDBY = 1
+# The indication is standby. Indication LEDs are on with low brightness.
+
+uint2 ACTIVE = 2
+# The indication is active. Indication LEDs are on with high brightness.
+
+uint2 BLINK = 3
+# The indication is blink. Indication LEDs are blinking.
+
+@sealed

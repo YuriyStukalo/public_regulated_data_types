@@ -1,0 +1,21 @@
+# The operating tracking system state of Orion system.
+
+bool enabled
+# Is started tracking system
+
+bool tracking_static
+# This flag is necessary to “freeze” the tracking algorithm, if the tracking system is exposed to strong vibrations.
+
+Mode.0.1 mode
+# Current mode
+
+orion.service.common.OemCamera.0.1 oem_camera
+# Selected OEM camera
+
+TargetId.0.1 selected_target_id
+# Selected target for tracking
+
+TargetId.0.1[<=5] detected_target_id
+# Sorted detected targets for UI
+
+@sealed

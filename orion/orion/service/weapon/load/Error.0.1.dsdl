@@ -1,0 +1,9 @@
+uint8 value
+
+uint8 NONE = 0
+# Normal execution.
+
+uint8 CURRENT_OVERLOAD = 10
+# The command execution has exceeded the current operating limits.
+
+@sealed

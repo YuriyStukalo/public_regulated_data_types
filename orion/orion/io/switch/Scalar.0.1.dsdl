@@ -1,0 +1,9 @@
+bool change_flag
+# Indicates if the switch state has changed. True (1) if the current state differs from the previous state; False (0) if it remains the same.
+
+uint3 value
+# Represents the current state of the switch.
+
+uint8 MAX_STATE_COUNT = 8
+
+@sealed

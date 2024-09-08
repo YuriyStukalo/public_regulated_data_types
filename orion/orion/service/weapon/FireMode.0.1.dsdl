@@ -1,0 +1,14 @@
+# The weapon fire mode of orion system.
+# Reserved values can be used in future revisions of the specification.
+
+uint4 value
+
+uint4 MODE1 = 0
+
+uint4 MODE2 = 1
+
+uint4 MODE3 = 2
+
+uint4 MODE4 = 3
+
+@sealed

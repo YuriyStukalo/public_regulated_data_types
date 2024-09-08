@@ -1,0 +1,5 @@
+uint8 CAPACITY = 2
+
+float16[CAPACITY] values
+
+@sealed

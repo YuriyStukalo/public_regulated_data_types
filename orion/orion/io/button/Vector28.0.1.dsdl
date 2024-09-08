@@ -1,0 +1,7 @@
+uint8 CAPACITY = 28
+
+bool[CAPACITY] change_flags
+
+bool[CAPACITY] values
+
+@sealed

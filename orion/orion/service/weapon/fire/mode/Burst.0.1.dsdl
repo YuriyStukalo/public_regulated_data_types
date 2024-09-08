@@ -1,0 +1,17 @@
+# Burst Fire.
+
+uint8 length
+# Defines the number of shots fired in a single burst.
+# The 'length' parameter specifies the total count of rounds to be discharged in one activation of the fire command in burst mode,
+# determining the number of shots in each burst.
+# When the 'length' parameter is equal to 1, the burst fire becomes a single shot.
+
+uint8 pulse_ms # [millisecond]
+# Specifies the duration of the trigger's active level within a single shot, measured in milliseconds.
+# The 'pulse_ms' determines the length of time the trigger is activated for each shot.
+
+uint16 duration_ms # [millisecond]
+# Specifies the total duration of a single shot within a burst, measured in milliseconds.
+# The 'duration_ms' parameter controls the firing rate, dictating the interval between consecutive shots in the burst.
+
+@sealed

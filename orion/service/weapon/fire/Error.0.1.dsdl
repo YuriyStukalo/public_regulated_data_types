@@ -1,0 +1,6 @@
+uint8 value
+
+uint8 NONE = 0
+# Normal execution.
+
+@sealed

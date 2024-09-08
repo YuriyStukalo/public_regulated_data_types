@@ -1,0 +1,4 @@
+float16 value
+# Represents the current value of the axis, normalized and saturated within the range of [-1, +1].
+
+@sealed

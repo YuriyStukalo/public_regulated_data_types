@@ -1,0 +1,9 @@
+# Hold Fire.
+
+uint16 duration_ms # [millisecond]
+# Specifies the minimum duration of the hold period, measured in milliseconds.
+# The 'duration_ms' parameter ensures a minimum time gap between the active levels of the trigger,
+# effectively cancelling any ongoing firing action and preventing immediate reactivation. It is not a strict delay,
+# but rather a guarantee of a minimal gap to ensure safe and controlled firing sequences.
+
+@sealed

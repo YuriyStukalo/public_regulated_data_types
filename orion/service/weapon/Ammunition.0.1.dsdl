@@ -1,0 +1,10 @@
+# The weapon shot mode and ammunition of orion system.
+# Reserved values can be used in future revisions of the specification.
+
+FireMode.0.1 fire_mode
+
+WeaponType.0.1 weapon_type
+
+uint16 count
+
+@sealed

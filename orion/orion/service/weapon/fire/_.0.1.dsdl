@@ -1,0 +1,10 @@
+# The weapon Fire service is designed to facilitate firing in various modes.
+#
+# Upon receiving a Command message specifying the desired fire mode and its parameters, the service will generate
+# Progress messages. These messages will provide updates on the current execution progress percentage.
+# A completion percentage of 100 signifies the successful completion of the command and intended to be the last for it.
+#
+# The execution of the ongoing command can be interrupted or restarted at any point before completion by issuing
+# a new Command message.
+
+@extent 0  # This type is not intended for runtime use.

@@ -1,0 +1,28 @@
+CameraId.0.1 camera_id
+# Camera ID.
+
+TargetId.0.1 id
+# Object ID.
+
+int16 x                # [pixels]
+# Object rectangle top-left horizontal coordinate.
+
+int16 y                # [pixels]
+# Object rectangle top-left vertical coordinate.
+
+uint16 width            # [pixels]
+# Estimated object width.
+
+uint16 height           # [pixels]
+# Estimated object height.
+
+float16 velocity_x      # [pixel/frame]
+# Horizontal velocity of object on video frames.
+
+float16 velocity_y      # [pixel/frame]
+# Vertical velocity of object on video frames.
+
+float32 detection_probability
+# Estimated probability of object detection. From 0 (minimum) to 1 (maximum).
+
+@sealed

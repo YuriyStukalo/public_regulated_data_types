@@ -1,0 +1,12 @@
+
+uint4 value
+
+uint4 TYPE1 = 0
+
+uint4 TYPE2 = 1
+
+uint4 TYPE3 = 2
+
+uint4 TYPE4 = 3
+
+@sealed

@@ -1,0 +1,6 @@
+@union
+
+float16[3] distances
+uint32 error
+
+@sealed

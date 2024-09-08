@@ -1,0 +1,10 @@
+Offset.0.1 collimator
+# Collimator offset or Laser Rangefinder center.
+
+Offset.0.1 ballistics
+# Ballistics offset or gun center.
+
+bool ballistics_calculated
+# Ballistics calculated done. Use ballistics offset.
+
+@sealed

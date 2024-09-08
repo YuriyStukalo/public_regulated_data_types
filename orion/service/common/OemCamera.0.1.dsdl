@@ -1,0 +1,13 @@
+# The OEM control of Orion system.
+# Reserved values can be used in future revisions of the specification.
+
+
+uint3 value
+
+uint3 NARROW_ANGLE  = 0
+uint3 WIDE_ANGLE    = 1
+uint3 THERMAL_X1    = 2
+uint3 THERMAL_X2    = 3
+uint3 THERMAL_X4    = 4
+
+@sealed

@@ -1,0 +1,9 @@
+Command.0.1 command
+
+uint7 completion_pct
+# Indicates the command's completion percentage.
+# It ranges from 0, signifying the commencement of the command, to 100, indicating its full completion.
+
+Error.0.1 error
+
+@extent 7 * 8  # Single-frame transfer over CAN.

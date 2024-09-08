@@ -1,0 +1,20 @@
+
+Mode.0.1 mode
+# System main mode
+
+Control.0.1 control
+# Drive control flags
+
+OemCamera.0.1 oem_camera
+# Selected OEM camera
+
+bool sight_mrf
+# Show manual range finder
+
+bool sight_gun_second
+# Show sight for second gun
+
+bool motion_ballistic
+# Switch motion target ballistic mode
+
+@sealed

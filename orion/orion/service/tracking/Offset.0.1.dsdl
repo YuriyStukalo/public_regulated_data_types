@@ -1,0 +1,7 @@
+int16 dx                # [pixels]
+# The x component of the offset.
+
+int16 dy                # [pixels]
+# The y component of the offset.
+
+@sealed

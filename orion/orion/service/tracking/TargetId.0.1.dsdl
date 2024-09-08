@@ -1,0 +1,7 @@
+# Object ID.
+
+uint16 value
+
+uint16 NULL = 0
+
+@sealed
