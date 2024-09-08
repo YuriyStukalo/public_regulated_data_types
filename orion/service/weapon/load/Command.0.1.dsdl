@@ -1,7 +1,0 @@
-@union
-
-orion.service.weapon.load.step.HomePosition.0.1 home_position
-orion.service.weapon.load.step.SafePosition.0.1 safe_position
-orion.service.weapon.load.step.CockTheGun.0.1 cock_the_gun
-
-@sealed

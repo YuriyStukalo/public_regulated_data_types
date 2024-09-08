@@ -1,8 +1,0 @@
-# The motion control of Orion system.
-# Reserved values can be used in future revisions of the specification.
-
-bool drive
-bool automation
-bool stabilizer
-
-@sealed
