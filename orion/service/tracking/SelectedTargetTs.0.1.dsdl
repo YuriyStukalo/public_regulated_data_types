@@ -1,5 +1,0 @@
-uavcan.time.SynchronizedTimestamp.1.0 timestamp
-SelectedTarget.0.1 target
-
-@sealed
-@assert _offset_.max <= (63 * 8)  # One CAN FD frame

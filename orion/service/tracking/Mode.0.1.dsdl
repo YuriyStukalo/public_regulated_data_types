@@ -1,8 +1,0 @@
-# The operating tracking mode of Orion system.
-
-uint2 value
-
-uint2 AIR = 1       # Tracking Air Targets
-uint2 GROUND = 2    # Tracking On Ground Targets
-
-@sealed
